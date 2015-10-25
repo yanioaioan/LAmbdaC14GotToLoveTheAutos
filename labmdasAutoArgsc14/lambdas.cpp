@@ -5,6 +5,8 @@
 #include<numeric>
 #include<algorithm>
 
+//C++14 introduces a new way of type-deducting lambdas - using auto...so convenient and pain free compared to previous explicit type specifications
+
 int main()
 {
          std::vector<int> V(2);
