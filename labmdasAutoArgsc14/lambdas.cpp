@@ -7,6 +7,10 @@
 
 //C++14 introduces a new way of type-deducting lambdas - using auto...so convenient and pain free compared to previous explicit type specifications
 
+/*This is a demo showing how to use auto argument deduction with C++14 along with nested lambdas,
+really handy- takes away all the pain of explicitly constructing all argument related structs!*/
+
+
 int main()
 {
          std::vector<int> V(2);
@@ -52,7 +56,7 @@ int main()
 //         });
 
 
-         // Print the sorted data using std::for_each and a lambda
+//          Print the sorted data using std::for_each and a lambda
 //         std::cout << "Final data" << std::endl;
 //         std::for_each(V.begin(), V.end(), [](auto i) { std::cout << i << " "; });
 //         std::cout << std::endl;
